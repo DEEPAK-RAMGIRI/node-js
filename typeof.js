@@ -1,0 +1,6 @@
+console.log(typeof(5))
+console.log(typeof('hello world'))
+console.log(typeof('12'))
+console.log(typeof('q'))
+console.log(typeof(true))
+console.log(typeof(null))
