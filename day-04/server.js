@@ -1,10 +1,15 @@
 const path = require('path');
 const express = require('express');
 const app = express()
+const {logger} =  require('./middleware/logEvents')
 
 const PORT = 3000;
 
+app.use(logger);
 
+app.use(express.urlencoded({extended : false}))
+app.use(express.json())
+app.use(express.static(path.join(__dirname,'/public')))
 app.get(/^\/$|\/index(.html)?$/, (req,res) => {res.sendFile(path.join(__dirname,'views','index.html'))});
 
 app.get(/new-page(.html)?/,(req,res) => {res.sendFile(path.join(__dirname,'views','new-page.html'))});
