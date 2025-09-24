@@ -18,6 +18,8 @@ app.use('/',express.static(path.join(__dirname,'/public')))
 app.use(express.json())
 
 app.use('/',require('./Routes/root'))
+app.use('/register',require('./Routes/register'))
+app.use('/auth',require('./Routes/auth'))
 app.use('/employees',require('./Routes/api/employee'))
 
 app.use(errorHandle);

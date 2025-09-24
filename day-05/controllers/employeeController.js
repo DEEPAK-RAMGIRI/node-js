@@ -1,6 +1,6 @@
 const data = {
         employees : require('../model/data.json'),
-        setEmployees : function (data) {this.employess = data}
+        setEmployees : function (data) {this.employees = data}
 }
 const allEmployeeDetails = (req,res) => {
         res.json(data.employees);
@@ -42,7 +42,7 @@ const deleteEMployee = (req,res) => {
         }
         const filteredArray = data.employees.filter(emp => emp.id !== parseInt(req.body.id));
         data.setEmployees([...filteredArray])
-        res.status(201).json(data.employees);
+        res.status(200).json(data.employees);
 }
 
 const getEmployee = (req,res) => {
