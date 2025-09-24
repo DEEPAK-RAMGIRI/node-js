@@ -5,6 +5,7 @@ const cors = require('cors');
 const {corsOption} = require('./config/corsOptions');
 const {logger} =  require('./middleware/logEvents');
 const errorHandle = require('./middleware/errorHandler');
+const verifyJWT = require('./middleware/verifyJWT')
 
 const PORT = 3000;
 const app = express();
@@ -15,6 +16,7 @@ app.use(logger);
 
 app.use(express.urlencoded({extended : false}))
 app.use('/',express.static(path.join(__dirname,'/public')))
+app.use(verifyJWT);
 app.use(express.json())
 
 app.use('/',require('./Routes/root'))

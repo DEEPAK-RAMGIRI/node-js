@@ -10,5 +10,14 @@
   {
     "username": "dj",
     "password": "$2b$10$sXSpI0rSl7g0VVQspMrwuO023nPsI1nAM2flOLpWrUWPOFnzTahSW"
+  },
+  {
+    "username": "d",
+    "password": "$2b$10$Xb.rG3c7qxT.Vlu6qC2lh.MUCSdiPfJyrKy7h.ZwqwT0lhQ3DRNIq"
+  },
+  {
+    "username": "deepak ramgiri",
+    "password": "$2b$10$f/Zk7RC3hZhAZFRt5rLLXebdP/m8lyoTXsJtGoK1Ux6faoSWye6Be",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRlZXBhayByYW1naXJpIiwiaWF0IjoxNzU4NzM2NDMzLCJleHAiOjE3NTg4MjI4MzN9.xnubnQYK5hrMSPKZ5jrkX4bnBkEC6wrk8gH5zk17FDs"
   }
 ]
