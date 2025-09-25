@@ -1,7 +1,8 @@
-const whiteList = ['http://localhost:3000']
+
+const allowedOrigin = require('./allowedOrigins')
 const corsOption = {
     origin : (origin,callback) => {
-        if (whiteList.indexOf(origin) !== -1 || !origin){
+        if (allowedOrigin.indexOf(origin) !== -1 || !origin){
             callback(null,true);
         }else{
             callback(new Error(`This ${origin} not in the WhiteList`))

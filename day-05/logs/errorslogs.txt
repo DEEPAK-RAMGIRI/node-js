@@ -3,3 +3,8 @@
 20250924	19:51:51	e73b56b9-0a5d-480d-8470-2ff88018bc4d	TypeError : userDb.users.find is not a function
 20250924	23:11:33	435b62b5-df81-4524-90be-aa47c7bbc7fb	TypeError : JSON.stringfy is not a function
 20250924	23:21:33	f92f1198-c8b5-4be9-b7fe-f6db495fa613	ReferenceError : decode is not defined
+20250925	15:26:27	a66f3dd8-5368-4f66-acfa-6d7f5e576f9b	TypeError : jwt.verifyswh is not a function
+20250925	15:27:14	3bb5a8f1-e8fc-4d80-bfd5-8097dd729296	TypeError : jwt.verifyswh is not a function
+20250925	16:51:36	ec6e6987-cda0-4c4b-9d00-77ef2fb07169	SyntaxError : Unexpected token '}', ..."password":}" is not valid JSON
+20250925	16:51:38	a2ca98b4-e33d-4083-9d3d-ec51942b3c7c	SyntaxError : Unexpected token '}', ..."password":}" is not valid JSON
+20250925	16:55:17	42b5f85e-90fa-42ac-85f5-0b29aa4a7b7d	SyntaxError : Unexpected token '}', ..."password":}" is not valid JSON
